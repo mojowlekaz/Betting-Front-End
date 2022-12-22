@@ -5,8 +5,8 @@ const Footer = () => {
     <div className='foot'>
                     <n > Join Our Socials</n>
         <div  className='Footer'>
-        <a><img   className="pic-3"src={require('/Users/macbook/bet/src/assets/twitter.jpeg')} /> </a> &nbsp;  &nbsp; 
-        <a><img   className="pic-3"src={require('/Users/macbook/bet/src/assets/discord.png')} />   </a>  &nbsp;  &nbsp; 
+        <a>Discord</a> &nbsp;  &nbsp; 
+        <a>Twitter<img    />   </a>  &nbsp;  &nbsp; 
         </div>
         {/* <div className='coluwn'>
             <n>Information</n>

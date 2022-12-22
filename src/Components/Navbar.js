@@ -16,10 +16,10 @@ const closeMenu = () => setClick(false)
   return (
     <div className='Navbar'>
             <div className='Navbar-Title'>
-                <h1>Bet2Earn</h1>
+             <img   className="pic-12"src={require('/Users/macbook/bet/src/assets/Web3Bet-Transparent V1.png')} /> 
                 <Link to="thirdpage" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>RoadMap</Link>
-                <a  style={{textDecoration: 'none'}} href='http://localhost:3001/'>
-                <button  style={{height: '70%', width: '200px', justifyContent: 'center', alignItems: 'center', marginTop: '1%'}}>Launch App <BsArrowRight /></button>
+                <a  style={{textDecoration: 'none'}} href='https://web3betdapp.netlify.app/'>
+                <button className='btt' >Launch App <BsArrowRight /></button>
                   </a>
 
             </div>
